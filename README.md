@@ -60,7 +60,7 @@ python -m venv .venv
 source .venv/bin/activate
 
 # Windows PowerShell
-.venv\\Scripts\\Activate.ps1
+.venv\Scripts\Activate.ps1
 
 python -m pip install -e .
 python -c "import epc_ai_lab; print('EPC AI Lab scaffold ready')"
